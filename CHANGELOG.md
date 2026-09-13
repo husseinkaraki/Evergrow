@@ -1,5 +1,18 @@
 # Evergrow changelog
 
+## v0.5.1 — 2026-09-13T16:48:00Z
+
+### New
+
+- Auto Equip is now beside Gear Power on the Equipment page, including mobile.
+
+### Tweaks
+
+- Automatic equipment selection weighs each slot’s strengths and your character’s resulting stats, including weapon speed, protection, movement and mana support.
+- Weapon-type changes still ask before replacing your weapon; equipped items are kept when there is no improvement.
+
+> Private test build. Existing characters retain their progress; no save reset is required.
+
 ## v0.5.0 — 2026-09-13T10:06:00Z
 
 ### New
