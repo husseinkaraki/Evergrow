@@ -1,5 +1,11 @@
 # Evergrow changelog
 
+## v0.5.2 — 2026-09-13T18:29:00Z
+
+### Fixes
+
+- Inventory drag previews follow the cursor into each slot and stay steady while hovering.
+
 ## v0.5.1 — 2026-09-13T16:53:00Z
 
 ### New
