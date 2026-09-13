@@ -127,7 +127,7 @@ export function itemTooltipMarkup(item: Item, view: ItemPresentation): string {
     ${weapon}${properties}
     ${uniqueDefinition(item)?uniquePowerMarkup(uniqueDefinition(item)!):''}
     ${itemModifiers(item).spellweavePercent ? `<p class="ui-item-description">Enables ${effectTerm('spellweave', 'Spellweave')} · melee ↔ magic · ${AFFIX_COMBAT_RULES.weaveDuration}s.</p>` : ''}${item.affixes.length ? `<div class="ui-item-affixes">${item.affixes.map(a => escapeUI(a.name)).join(' · ')}</div>` : ''}
-    ${comparison}<div class="ui-item-comparison">Sell value · ${number(itemPrice(item, 'sell'), 0)} gold</div>
+    ${comparison}<div class="ui-item-comparison"><span>Sell value · ${number(itemPrice(item, 'sell'), 0)} gold</span></div>
     ${view.context ? `<div class="ui-item-comparison">${escapeUI(view.context)}</div>` : ''}`;
 }
 
